@@ -1,127 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accessible Design Co. Website</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Accessible Design Co. Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet"/>
 </head>
-
 <body>
-    <div class="container">
-        <nav class="navbar" role="navigation">
-            <ul class="navbar-list">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="main">
-            <header>
-                <div class="hero-flex" id="home">
-                    <div class="hero-items" id="hero-text">
-                        <h1>Accessible <span class="font-bold">Design</span> Co.</h1>
-                        <h2><span class="semi-bold">design for everyone</span></h2>
-                        <button type="button" class="button">Getting started</button>
-                    </div>
-                    <div class="hero-items">
-                        <img
-                            src="https://accessibilityspark.com/wp-content/uploads/2021/07/DreamHost-Accessibility-Tips-750x498-1.jpg" alt="an image representing design accessibility with an eye, ear, brain and hand icons">
-                    </div>
-                </div>
-            </header>
-            <article id="about">
-                <p>At <span class="purple-text">Accessible Design Co.</span>, we believe that great design is
-                    inclusive design. We specialize in
-                    creating digital experiences that are <span class="purple-text">accessible to all users</span>
-                    and responsive across all
-                    devices—ensuring that <span class="purple-text">no one is left behind</span> in the digital
-                    world.</p>
-
-                <p>With a deep understanding of <span class="purple-text">accessibility standards like WCAG, ADA,
-                        and Section 508</span>, combined
-                    with cutting-edge responsive design practices, we help businesses build websites and
-                    applications that are not only beautiful and functional but also <span class="purple-text">equitable
-                        and legally
-                        compliant.</span></p>
-            </article>
-            <div class="grid-container" id="services">
-                <div id="item-1" class="services-flex">
-                    <h3>Accessible Web & App Design</h3>
-                    <p>Designing websites and applications that meet accessibility standards (e.g., WCAG 2.1/2.2).
-                    </p>
-
-                    <p>Ensuring keyboard navigation, screen reader compatibility, color contrast, alt text, and
-                        semantic HTML.</p>
-                </div>
-                <div id="item-2" class="services-flex">
-                    <h3>Consulting & Training</h3>
-
-                    <p>Educating in-house teams on best practices for accessibility and responsive design.</p>
-
-                    <p>Developing custom accessibility guidelines for organizations.</p>
-                </div>
-                <div id="item-3" class="services-flex">
-                    <h3>Accessibility Audits & Remediation</h3>
-
-                    <p>Evaluating existing websites/apps for accessibility issues using manual and automated tools.
-                    </p>
-
-                    <p>Providing detailed reports with prioritized fixes.</p>
-                </div>
-                <div id="item-4" class="services-flex">
-                    <h3>Responsive Front-End Development</h3>
-
-                    <p>Creating mobile-first designs that adapt seamlessly across desktops, tablets, and
-                        smartphones.</p>
-
-                    <p>Utilizing frameworks like Bootstrap, Tailwind CSS, or custom media queries to ensure fluid
-                        layouts.</p>
-                </div>
-            </div>
-            <fieldset class="contact-form" id="contactForm" aria-describedby="formError">
-                <div class="form-group-row">
-                    <div>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" placeholder="Name" required aria-invalid="false"
-                            aria-required="true">
-                    </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="text" id="email" name="email" placeholder="Email" required aria-invalid="false"
-                            aria-required="true">
-                    </div>
-                    <div>
-                        <label for="pick-service-option">Pick a service</label>
-                        <select name="pick-service-option" id="services-form">
-                            <option value="web&app">Web&App Design</option>
-                            <option value="consulting">Consulting&Training</option>
-                            <option value="audit">Audits&Remediation</option>
-                            <option value="front-end">Front-end Development</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-group-full">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required aria-invalid="false"></textarea>
-                </div>
-                <div class="form-group-full">
-                    <button type="submit" class="button">Send</button>
-                </div>
-                <div id="formError" class="error" role="alert" aria-live="polite"></div>
-            </fieldset>
+  <div class="container">
+    <nav class="navbar" role="navigation">
+      <ul class="navbar-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="main">
+      <header>
+        <div class="hero-flex" id="home">
+          <div class="hero-items" id="hero-text">
+            <h1>Accessible <span class="font-bold">Design</span> Co.</h1>
+            <h2><span class="semi-bold">design for everyone</span></h2>
+            <button type="button" class="button">Getting started</button>
+          </div>
+          <div class="hero-items">
+            <img src="https://accessibilityspark.com/wp-content/uploads/2021/07/DreamHost-Accessibility-Tips-750x498-1.jpg"
+              alt="An image representing design accessibility with an eye, ear, brain and hand icons" />
+          </div>
         </div>
+      </header>
+      <article id="about">
+        <p>At <span class="purple-text">Accessible Design Co.</span>, we believe that great design is inclusive. We specialize in creating digital experiences that are <span class="purple-text">accessible to all users</span> and responsive across all devices—ensuring that <span class="purple-text">no one is left behind</span> in the digital world.</p>
+        <p>With a deep understanding of <span class="purple-text">accessibility standards like WCAG, ADA, and Section 508</span>, we help businesses build websites and applications that are <span class="purple-text">equitable and legally compliant</span>.</p>
+      </article>
+      <div class="grid-container" id="services">
+        <div id="item-1" class="services-flex">
+          <h3>Accessible Web & App Design</h3>
+          <p>Designing websites and applications that meet accessibility standards (e.g., WCAG 2.1/2.2).</p>
+          <p>Ensuring keyboard navigation, screen reader compatibility, color contrast, alt text, and semantic HTML.</p>
+        </div>
+        <div id="item-2" class="services-flex">
+          <h3>Consulting & Training</h3>
+          <p>Educating in-house teams on best practices for accessibility and responsive design.</p>
+          <p>Developing custom accessibility guidelines for organizations.</p>
+        </div>
+        <div id="item-3" class="services-flex">
+          <h3>Accessibility Audits & Remediation</h3>
+          <p>Evaluating existing websites/apps for accessibility issues using manual and automated tools.</p>
+          <p>Providing detailed reports with prioritized fixes.</p>
+        </div>
+        <div id="item-4" class="services-flex">
+          <h3>Responsive Front-End Development</h3>
+          <p>Creating mobile-first designs that adapt seamlessly across desktops, tablets, and smartphones.</p>
+          <p>Utilizing frameworks or custom media queries to ensure fluid layouts.</p>
+        </div>
+      </div>
+      <fieldset class="contact-form" id="contact" aria-describedby="formError">
+        <div class="form-group-row">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Name" required aria-invalid="false" aria-required="true" />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Email" required aria-invalid="false" aria-required="true" />
+          </div>
+          <div>
+            <label for="pick-service-option">Pick a service:</label>
+            <select name="pick-service-option" id="services-form">
+              <option value="web&app">Web & App Design</option>
+              <option value="consulting">Consulting & Training</option>
+              <option value="audit">Audits & Remediation</option>
+              <option value="front-end">Front-End Development</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group-full">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required aria-invalid="false"></textarea>
+        </div>
+        <div class="form-group-full">
+          <button type="submit" class="button">Send</button>
+        </div>
+        <div id="formError" class="error" role="alert" aria-live="polite"></div>
+      </fieldset>
     </div>
-    <footer class="items-center">
-        <p>Footer</p>
-    </footer>
+  </div>
+  <footer class="items-center">
+    <p>Footer</p>
+  </footer>
 </body>
-
 </html>

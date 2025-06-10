@@ -278,3 +278,53 @@ h3 {
         width: 100%;
     }
 }
+
+.footer {
+  background-color: rgb(170, 183, 194);
+  color: rgb(58, 71, 82);
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.95rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer-links,
+.contact-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link-item {
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.footer-link-item:hover {
+  background-color: rgb(69, 69, 147);
+}
+
+.footer-link-item a {
+  color: rgb(58, 71, 82);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer-link-item:hover a {
+  color: aliceblue;
+}

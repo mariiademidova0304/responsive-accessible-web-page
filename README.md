@@ -1,0 +1,4 @@
+# Reflection
+1. In this SBA we've covered HTML and CSS and have finished a responsive website page design with a header, navbar, articles, guest forms and contacts footer.
+2. I've spent a big amount of time on this (much more than was allotted) and went through a million google searches and I'm still not sure where things worked and where they didn't. I've used grid and flex containers, but it was a little hard to align texts and elements in them like I wanted to, I feel like some of the properties ended up overriding others and in some places I just gave up, if I'm being honest.
+3. I still need to learn and practice a lot with containers, need to figure out where pixels should be used instead of rem and vice versa. I think it's a good idea to look at the build of other website examples to check how elements are supposed to work the best.

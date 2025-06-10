@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Accessible Design Co. Website</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet" />
 </head>
+
 <body>
   <div class="container">
     <nav class="navbar" role="navigation">
@@ -28,14 +30,20 @@
             <button type="button" class="button">Getting started</button>
           </div>
           <div class="hero-items">
-            <img src="https://accessibilityspark.com/wp-content/uploads/2021/07/DreamHost-Accessibility-Tips-750x498-1.jpg"
+            <img
+              src="https://accessibilityspark.com/wp-content/uploads/2021/07/DreamHost-Accessibility-Tips-750x498-1.jpg"
               alt="An image representing design accessibility with an eye, ear, brain and hand icons" />
           </div>
         </div>
       </header>
       <article id="about">
-        <p>At <span class="purple-text">Accessible Design Co.</span>, we believe that great design is inclusive. We specialize in creating digital experiences that are <span class="purple-text">accessible to all users</span> and responsive across all devices—ensuring that <span class="purple-text">no one is left behind</span> in the digital world.</p>
-        <p>With a deep understanding of <span class="purple-text">accessibility standards like WCAG, ADA, and Section 508</span>, we help businesses build websites and applications that are <span class="purple-text">equitable and legally compliant</span>.</p>
+        <p>At <span class="purple-text">Accessible Design Co.</span>, we believe that great design is inclusive. We
+          specialize in creating digital experiences that are <span class="purple-text">accessible to all users</span>
+          and responsive across all devices—ensuring that <span class="purple-text">no one is left behind</span> in the
+          digital world.</p>
+        <p>With a deep understanding of <span class="purple-text">accessibility standards like WCAG, ADA, and Section
+            508</span>, we help businesses build websites and applications that are <span class="purple-text">equitable
+            and legally compliant</span>.</p>
       </article>
       <div class="grid-container" id="services">
         <div id="item-1" class="services-flex">
@@ -63,11 +71,13 @@
         <div class="form-group-row">
           <div>
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Name" required aria-invalid="false" aria-required="true" />
+            <input type="text" id="name" name="name" placeholder="Name" required aria-invalid="false"
+              aria-required="true" />
           </div>
           <div>
             <label for="email">Email:</label>
-            <input type="text" id="email" name="email" placeholder="Email" required aria-invalid="false" aria-required="true" />
+            <input type="text" id="email" name="email" placeholder="Email" required aria-invalid="false"
+              aria-required="true" />
           </div>
           <div>
             <label for="pick-service-option">Pick a service:</label>
@@ -90,8 +100,32 @@
       </fieldset>
     </div>
   </div>
-  <footer class="items-center">
-    <p>Footer</p>
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Accessible Design Co. All rights reserved.</p>
+      <div class="footer-links">
+        <p>Follow us:</p>
+        <div class="footer-link-item">
+          <a href="https://instagram.com/" aria-label="Instagram profile" target="_blank" rel="noopener noreferrer">
+            Instagram
+          </a>
+        </div>
+      </div>
+      <div class="contact-section">
+        <p>Contact us:</p>
+        <p>Email:
+          <span class="footer-link-item">
+            <a href="mailto:info@accessibledesign.com">info@accessibledesign.com</a>
+          </span>
+        </p>
+        <p>Phone:
+          <span class="footer-link-item">
+            <a href="tel:+13478655987">(347) 865-5987</a>
+          </span>
+        </p>
+      </div>
+    </div>
   </footer>
 </body>
+
 </html>
